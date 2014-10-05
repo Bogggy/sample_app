@@ -1,4 +1,4 @@
-require File.expand_path('../boot', __FILE__)
+ require File.expand_path('../boot', __FILE__)
 
 # Pick the frameworks you want:
 require "active_model/railtie"
@@ -27,5 +27,6 @@ module SampleApp
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 config.secret_key_base = '4e64edb880eb0ae7561466b749fed524a28465d1bca78e5828b65ee64dde6520075e6b42f2143c537261c0722eeab2d5a2ebd4658b4eaf1c4bf215fbe352bed4'
-  end
+config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif) 
+ end
 end
