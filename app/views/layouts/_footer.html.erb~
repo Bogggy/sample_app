@@ -6,8 +6,16 @@
   <nav>
     <ul>
       <li><%= link_to "About",   '#' %></li>
+<<<<<<< HEAD
       <li><%#= link_to "Contact", '#' %></li>
+=======
+      <li><%= link_to "Contact", '#' %></li>
+>>>>>>> sign-up
       <li><a href="http://news.railstutorial.org/">News</a></li>
     </ul>
   </nav>
 </footer>
+<<<<<<< HEAD
+=======
+
+>>>>>>> sign-up

@@ -3,15 +3,20 @@ require 'spec_helper'
 describe "User pages" do
 
   subject { page }
+<<<<<<< HEAD
   .
   .
   .
+=======
+
+>>>>>>> sign-up
   describe "signup page" do
     before { visit signup_path }
 
     it { should have_content('Sign up') }
     it { should have_title(full_title('Sign up')) }
   end
+<<<<<<< HEAD
 
   describe "signup" do
 
@@ -39,3 +44,8 @@ describe "User pages" do
     end
   end
 end
+=======
+end
+
+
+>>>>>>> sign-up

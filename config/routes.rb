@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Rails.application.routes.draw do
   resources :users
+=======
+SampleApp::Application.routes.draw do
+  get "users/new"
+>>>>>>> sign-up
   root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/help',    to: 'static_pages#help',    via: 'get'
